@@ -360,7 +360,7 @@ To git@heroku.com:arcane-gorge-2129.git
 <ul>
 <li>In <code>app.rb</code> we assign <code>params[:name]</code> to a special type of variable <code>@name</code>. The special type of variable is an <em>instance variable</em> which <strong>has to begin with a single <code>@</code></strong>.</li>
 
-<li>We use the instance variable in the <code>views/greet.erb</code> inside a special erb tag <code>&lt;%= ... %&gt;</code>. The erb templater looks for these tags and interprets the inside as ruby.</li>
+<li>We use the instance variable in the <code>views/welcome.erb</code> inside a special erb tag <code>&lt;%= ... %&gt;</code>. The erb templater looks for these tags and interprets the inside as ruby.</li>
 </ul>
 
 <p>Sinatra emphasises <em>convention</em> over <em>configuration</em>: rather than specifying the exact place to find the template, you just give the name and Sinatra ‘knows’ where to look. This means you have to write less code in the long run, but also that you have to know the conventions before you start.</p>
